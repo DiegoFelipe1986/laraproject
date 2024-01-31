@@ -1,0 +1,123 @@
+.header {
+    background-color: #3498db;
+    padding: 5px;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.container {
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+.container-form {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.efective {
+    width: 100%;
+    background-color: #3498db;
+
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 40px;
+
+}
+
+
+
+  .button-transfer {
+    background-color: #3498db;
+    color: #fff;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+
+
+.container-horizon {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+/* Estilos individuales para los dos divs dentro del contenedor horizontal */
+.child-div{
+    width: 48%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.input-transfer {
+    width: calc(100% - 20px); /* Resta el ancho del adorno al ancho del input */
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: 2px solid #3498db;
+    border-radius: 5px;
+    font-size: 16px;
+
+  }
+
+  
+  .button-send{
+    background-color: red;
+    height: 30px;
+    padding: 5px;
+    margin-top: 45px;
+    border-radius: 5px;
+    color:#ffffff;
+  }
+  .label-form {
+    font-size: 16px;
+    margin-bottom: 5px;
+    color: #2c3e50;
+    font-weight: 500;
+  }
+
+  .sep-header{
+    margin-top: 10%;
+  }
+
+  .full-width-button {
+    width: 100%;
+    margin-top: 10px; /* Ajusta según tu diseño */
+  }
+
+
+.table-container {
+    width: 100%;
+    overflow-x: auto;
+}
+
+.custom-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.custom-table th, .custom-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.custom-table th {
+    background-color: #f2f2f2;
+}
+
+.text-success {
+    color: green;
+}
+
+.text-danger {
+    color: red;
+}
